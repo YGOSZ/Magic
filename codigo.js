@@ -1,5 +1,5 @@
 function exibidos(){
-    const carros = [
+    const deck = [
       {
         "Nome": "Terreno Basico",
         "Custo": "",
@@ -129,5 +129,6 @@ function exibidos(){
         "Habilidade": ""
       }
     ]
-  }
-  
+
+  };
+  console.log(JSON.stringify(deck, null, 2));
