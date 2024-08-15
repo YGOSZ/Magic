@@ -139,4 +139,5 @@ function exibidos(){
   console.log(carros[1]);
   console.log("// exibe se o carro 2 é eEletrico");
   console.log(carros[1].eEletrico);
-  }
+  };
+  
