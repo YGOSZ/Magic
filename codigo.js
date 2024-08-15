@@ -1,5 +1,5 @@
-{
-    "deck" [
+function exibidos(){
+    const carros = [
       {
         "Nome": "Terreno Basico",
         "Custo": "",
