@@ -128,7 +128,15 @@ function exibidos(){
         "Quantidade": "",
         "Habilidade": ""
       }
-    ]
-
-  };
-  console.log(JSON.stringify(deck, null, 2));
+    
+  ];
+  console.clear();
+  console.log("// exibe todos os carros dentro da estrutura JSON");
+  console.log(carros);
+  console.log("// exibe o dados do primeiro carro");
+  console.log(carros[0]);
+  console.log("// exibe o dados do segundo carro");
+  console.log(carros[1]);
+  console.log("// exibe se o carro 2 é eEletrico");
+  console.log(carros[1].eEletrico);
+  }
